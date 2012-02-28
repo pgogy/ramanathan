@@ -1,0 +1,287 @@
+html{
+	
+	background-color:#F9F9F9;
+	font-family:Helvetica, Tahoma, Arial;
+	font-size:100%;
+							
+}
+
+html a{
+
+	color:#000;
+
+}
+
+.top_strip{
+	
+	float:left; position:relative; 
+	width:99%; 
+	border-bottom:2px solid #aaa; 
+	margin:2px; 
+	padding:2px;
+	
+}
+
+.top_strip div{
+	
+	float:left; 
+	height:70px; 
+	color:#000;  
+	font-family:Georgia, Times, Serif;
+		
+}
+
+h1{
+	
+	color:#fff;
+	background-color:#000;
+	font-size:310%;
+	margin:1px 5px;
+	padding:0 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+}
+
+.top_strip p{
+	
+	padding:0 10px;
+	font-family:Georgia, Times, Serif;
+	color:#666;
+	margin:0px;
+	line-height:22px;
+	padding-top:16px;
+	
+}
+
+.main_content div p{
+
+	font-size:75%;
+	margin:0px;
+	padding:0px;
+
+}
+
+.tweet{
+
+	float:left;
+	position:relative;
+	clear:both;
+	margin:5px 0px;
+
+}
+
+.tweet a{
+
+	color:#000;
+
+}
+
+.image_twitter{
+
+	float:left; 
+	position:relative;
+	width:75px;
+
+}
+
+.tweet_text{
+
+	float:left; 
+	position:relative;
+
+}
+
+.tweet_text div{
+
+	float:left; 
+	position:relative; 
+	clear:left;
+	margin-bottom:10px;
+
+}
+
+.party p{
+
+	margin:2px 0px;
+	padding:0px;
+
+}
+
+.licence_holder{
+
+	float:left;
+	position:relative;
+	clear:left;
+	width:100%;
+	margin-top:30px;
+
+}
+
+.licence_holder a{
+
+	color:#000;
+
+}
+
+ul{
+
+	padding:0 0 0 10;
+	margin:0px;
+
+}
+
+ul li{
+
+	list-style:none;
+
+}
+
+div.letter_set{
+
+	float:left; 
+	position:relative; 
+	clear:left; 
+	width:100%;
+	margin:10px;
+
+}
+
+div.letter_first{
+
+	float:left; 
+	position:relative; 
+	width:3%;
+
+}
+
+div.letter_first h2{
+
+	padding:0px;
+	margin:0px;
+
+}
+
+div.countries{
+
+	float:left; 
+	position:relative; 
+	width:97%;
+	font-size:70%; 
+
+}
+
+div.country_name{
+
+	float:left; 
+	position:relative; 
+	width:15%;
+
+}
+
+div.country_name h2, div.countries_days p{
+
+	padding:0px;
+	margin:0px;
+
+}
+
+div.countries_days{
+
+	float:left; 
+	position:relative; 
+	width:80%;
+	font-size:85%; 
+
+}
+
+div.day{
+
+	float:left;
+	position:relative;
+	width:10%;
+	margin:10px 10px 10px 0px;
+
+}
+
+div.day img{
+
+	margin:2px;
+
+}
+
+div.month{
+
+	float:left;
+	position:relative;
+	width:100%;
+
+}
+
+.month_flags h2{
+
+	display:inline;
+	margin-right:10px;
+
+}
+
+.hide_months{
+
+	display:none;
+
+}
+
+.status_bar{
+	float:left; 
+	width:100%;
+	text-align:center;
+}
+
+.status_bar div{
+	float:left; 
+	width:10%;
+}
+
+.form_holder{
+	float:left;
+	position:relative;
+	padding-top:5px;
+	width:100%;
+	clear:both;
+}
+
+.form_holder input{
+	margin:20px;
+	padding:10px;
+}
+
+.form_holder label.button{
+	background:#000;
+	color:#fff;
+	cursor:pointer;
+	cursor:hand;
+	padding:10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.form_holder label.button:hover{
+      border:1px dashed #fff;
+      background:#666;
+}
+
+div#links{
+	float:left; 
+	position:relative;
+	clear:left;
+	width:100%;
+}
+
+div#links a{
+	cursor:pointer;
+	cursor:hand;
+}
+
+div#links a:hover{
+	text-decoration:underline;
+}
