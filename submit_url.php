@@ -121,7 +121,7 @@
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
 	curl_setopt($ch, CURLOPT_URL, "http://alpha.mimas.ac.uk/publish");
 	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 50); 
-	curl_setopt($ch, CURLOPT_USERPWD, "");
+	curl_setopt($ch, CURLOPT_USERPWD, "fred:flintstone");
 	curl_setopt($ch, CURLOPT_TIMEOUT, 50); 
 	curl_setopt($ch, CURLOPT_MAXREDIRS, 10); 
 	curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-type: application/json')); 

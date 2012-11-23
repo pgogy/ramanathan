@@ -217,6 +217,7 @@
 		?>			
 		<div class="form_holder">
 			<p style="padding-top:10px">Ramanathan is an RSS parser which reads RSS feeds and then sets up submission of items from these feeds into a learning registry node</p>
+			<p>To submit an entire feed please see the <a href="submit_all.php">submit all page</a> or <a href="submit_all_oai.php">submit all page (OAI:DC)</a></p>
 			<p>Enter an RSS Feed you wish to examine - (If the feed contains "dc:rights" or "dc:subject" fields then these will be sent to the registry node)</p>
 			<form action = "" method ="POST" onsubmit="javascript:getfeed()">
 				<label>Enter RSS Feed Url</label><input id="url" type="text" size="150" />		
